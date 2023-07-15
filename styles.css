@@ -99,14 +99,34 @@ a {
 
 .second-section {
     background-color: #E5E7EB;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.second-section span {
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
 }
 
 
-.third-section {
-    background-color: #1F2937;
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.fourth-section .box {
+    width: 100px;
+    height: 100px;
 
+}
 
 .footer {
     height: 72px;
