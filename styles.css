@@ -3,20 +3,81 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-  }
-  
-.hero-content {
 
+  }
+
+
+
+.hero-content {
+    background-color: #1F2937;
+    height: 200px;
+}
+/* .head-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.hero-card-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sign-up-button {
+    border: none;
+    border-radius: 8px;
+    background-color: lightblue;
+    padding: 8px 16px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.hero-card-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.left-links, .right-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 20px;
     
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
 .body {
     flex: 1;
     display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
