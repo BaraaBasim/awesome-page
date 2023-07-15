@@ -89,6 +89,22 @@ a {
     font-size: 18px;
 }
 
+.second-section,
+.third-section,
+.fourth-section {
+    height: 300px;
+    padding: 30px;
+}
+
+
+.second-section {
+    background-color: #E5E7EB;
+}
+
+
+.third-section {
+    background-color: #1F2937;
+}
 
 
 
