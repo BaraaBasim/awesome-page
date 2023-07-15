@@ -43,6 +43,18 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+.donate-button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    background-color: #3882F6;
+    
+    padding: 8px 16px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 .hero-content {
     display: flex;
     justify-content: flex-start;
@@ -96,6 +108,23 @@ a {
     padding: 30px;
 }
 
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-actiontime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 900px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+}
 
 .second-section {
     background-color: #E5E7EB;
